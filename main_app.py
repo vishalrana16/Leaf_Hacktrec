@@ -26,11 +26,6 @@ app = Flask(__name__)
 num_channel = 1
 P = os.getcwd() + r'//test_data'
 
-@app.route('/hello')
-def index():
-	#initModel()
-	return render_template("index.html")
-
 @app.route('/upload')
 def uploaded_file():
 	return render_template('upload.html')
