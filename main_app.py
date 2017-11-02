@@ -28,7 +28,7 @@ P = os.getcwd() + r'//test_data'
 
 @app.route('/upload')
 def uploaded_file():
-	return render_template('upload.html')
+	return render_template('index.html')
 
 #@app.route('/')
 
