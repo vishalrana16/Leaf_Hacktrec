@@ -85,11 +85,11 @@ def upload_file():
                               
             data_dict = {
                     
-                2:['Populus nigra',str(max(max(out))*93)[0:5],'No'],
-                8:['Betula pubescens',str(max(max(out))*94)[0:5],'Yes'],
-                18:['Polypodium vulgare',str(max(max(out))*91)[0:5],'Yes'],
-                37:['Chelidonium majus',str(max(max(out))*90)[0:5],'Yes'],
-                39:['Fragaria vesca',str(max(max(out))*92)[0:5],'No']
+                2:['Populus nigra',str(max(max(out))*100)[0:5],'No'],
+                8:['Betula pubescens',str(max(max(out))*100)[0:5],'Yes'],
+                18:['Polypodium vulgare',str(max(max(out))*100)[0:5],'Yes'],
+                37:['Chelidonium majus',str(max(max(out))*100)[0:5],'Yes'],
+                39:['Fragaria vesca',str(max(max(out))*100)[0:5],'No']
                 }
             z=data_dict[m][0:2]
             r = data_dict[m]
